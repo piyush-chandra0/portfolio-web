@@ -1,7 +1,7 @@
 export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <meta charset="utf-8">
   <title>Portfolio Web</title>
-  <base href="https://piyush-chandra0.github.io/portfolio-web/">
+  <base href="/portfolio-web/">
 <style>body{font-family:Arial,sans-serif;margin:0;background:#f4f4f4}.navbar{background:#222;color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between}.nav-links{list-style:none;display:flex;gap:1.5rem}.nav-links a{color:#fff;text-decoration:none}
 </style><link rel="stylesheet" href="styles-LAXFBFPS.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-LAXFBFPS.css"></noscript></head>
 <body><!--nghm-->

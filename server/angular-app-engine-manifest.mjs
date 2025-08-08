@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://piyush-chandra0.github.io/portfolio-web',
+  basePath: '/portfolio-web',
   supportedLocales: {
   "en-US": ""
 },
