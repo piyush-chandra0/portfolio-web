@@ -1,6 +1,144 @@
-<app-navbar></app-navbar>
-<app-home></app-home>
-<app-about></app-about>
-<app-projects></app-projects>
-<app-skills></app-skills>
-<app-contact></app-contact>
+<!-- src/app/app.component.html -->
+<header class="container navbar">
+  <div class="logo">
+    <span class="mark"></span>
+    <div>
+      <div style="font-size:14px">Piyush Chandra</div>
+      <div style="font-size:11px;color:var(--muted)">.NET • Java • Angular</div>
+    </div>
+  </div>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <!-- HERO -->
+  <section id="home" class="hero" data-aos="fade-up">
+    <div class="hero-left">
+      <div class="eyebrow">Hello — I build delightful web apps</div>
+      <h1>Hi, I’m <span
+          style="background:linear-gradient(90deg,var(--accent1),var(--accent2));-webkit-background-clip:text;color:transparent">Piyush</span>.<br />
+        I craft polished Angular & Java experiences.
+      </h1>
+      <p class="lead">I design and build web applications with clean architecture, great UX and robust backend services
+        (Java / Spring Boot, .NET APIs).</p>
+
+      <div class="cta">
+        <a class="btn" href="#projects">See Projects</a>
+        <a class="btn secondary" href="assets/Piyush_Chandra_Resume.pdf" target="_blank">Download Resume</a>
+      </div>
+
+      <div style="margin-top:18px;" data-aos="fade-up" data-aos-delay="200">
+        <div class="tags">
+          <span class="tag">Angular</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Java</span>
+          <span class="tag">Spring Boot</span>
+          <span class="tag">.NET</span>
+          <span class="tag">Microservices</span>
+          <span class="tag">REST APIs</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right" data-aos="zoom-in">
+      <!-- Put an avatar or screenshot here -->
+      <img src="assets/avatar.png" alt="avatar"
+        style="width:220px;border-radius:12px;box-shadow:0 20px 40px rgba(0,0,0,0.6)">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" style="padding-top:40px" data-aos="fade-up">
+    <div style="display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap">
+      <div style="flex:1;min-width:260px">
+        <h2>About Me</h2>
+        <p style="color:var(--muted)">I’m an engineer focused on building maintainable frontend systems and scalable
+          backend services. I enjoy optimizing user flows and building developer-friendly APIs.</p>
+      </div>
+      <div style="width:320px">
+        <div class="card">
+          <h3>Quick Facts</h3>
+          <p style="margin-top:8px;color:var(--muted)">8+ years building web apps • Angular & TypeScript • Java & Spring
+            Boot • .NET APIs</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" style="padding-top:36px" data-aos="fade-up">
+    <h2>Selected Projects</h2>
+    <div class="grid">
+      <div class="card" data-aos="fade-up" data-aos-delay="50">
+        <h3>Invoice Upload Tool</h3>
+        <p>A robust Angular UI with pre-validation and Excel error reporting, integrated with .NET APIs.</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="120">
+        <h3>Energy Dashboard</h3>
+        <p>Visualization and analytics platform using Angular and Spring Boot backend for energy metrics.</p>
+      </div>
+      <div class="card" data-aos="fade-up" data-aos-delay="190">
+        <h3>Microservices Starter</h3>
+        <p>Reusable microservice patterns in Java with Spring Boot — auth, config, and observability setup.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" style="padding-top:36px" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div style="display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;">
+      <div style="flex:1;min-width:240px">
+        <div class="card">
+          <h3>Frontend</h3>
+          <p class="muted">Angular, TypeScript, RxJS, HTML/CSS, Tailwind</p>
+        </div>
+      </div>
+      <div style="flex:1;min-width:240px">
+        <div class="card">
+          <h3>Backend</h3>
+          <p class="muted">Java, Spring Boot, .NET Core, REST APIs, Microservices</p>
+        </div>
+      </div>
+      <div style="flex:1;min-width:240px">
+        <div class="card">
+          <h3>DevOps</h3>
+          <p class="muted">Docker, CI/CD, GitHub Actions, Netlify/GH-Pages</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" style="padding-top:36px" data-aos="fade-up">
+    <h2>Contact</h2>
+    <div class="contact-card" style="display:flex;flex-wrap:wrap;gap:12px;align-items:center">
+      <div style="flex:1">
+        <p style="margin:0 0 6px">Want to work together or see code samples?</p>
+        <p style="margin:0;font-weight:700">
+          Email:
+          <a href="mailto:piyushchandra41000@gmail.com" style="color:var(--accent2)">
+            piyushchandra41000&#64;gmail.com
+          </a>
+        </p>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn" href="https://github.com/piyush-chandra0" target="_blank">GitHub</a>
+        <a class="btn" href="https://piyush-chandra0.github.io/chess-app/" target="_blank">Challenge Me 🚀</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>Made with ♥ using Angular • © 2025 Piyush Chandra</div>
+  </footer>
+</main>

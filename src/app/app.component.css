@@ -1,0 +1,11 @@
+/* src/app/app.component.css */
+/* small overrides and animation bindings */
+:host { display:block; animation: fadeIn .45s ease; }
+@keyframes fadeIn {
+  from { opacity:0; transform: translateY(6px); }
+  to { opacity:1; transform: translateY(0); }
+}
+
+/* link styles in components (ensures visible links) */
+a { color: var(--accent2); text-decoration: none; }
+a:hover { text-decoration: underline; }
